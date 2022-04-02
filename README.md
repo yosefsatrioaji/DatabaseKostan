@@ -9,8 +9,12 @@ Using codeigniter4 framework
 - Make `database_kostan` on your local MySQL database
 - Open CMD on root of this project 
 - Run this command
+
 First run `composer install` then `composer update` just to make sure :P
+
 Then run `php spark migrate`
+
 Optionally you can seed the database with dummy data
 `php spark db:seed Kostan`
+
 and last `php spark serve`
